@@ -69,7 +69,7 @@ jupyter notebook
 1. Place the video file you want to process in the repository directory.
 
 2. Update the path_input_video (with the extension .mov) and path_output_video (with the extension .mp4) variables in the script with the path to your input video.
-3. Download the picture MyCar.png' from the repository and put the path to the image in your local system in the overlay_img variable.
+3. Download the picture MyCar.png' from the DataSet and put the path to the image in your local system in the overlay_img variable.
 
 4. Run the script.
 
