@@ -1,19 +1,20 @@
 # Moving Object detection and tracking with Bird's Eye View Simulation
 
 ## Table of Contents 📑
-- [Overview](#Overview)
-- [YOLOv5 Overview](#YOLOv5-Overview)
-- [Requirements](#Requirements)
-- [Installation](#Installation)
-- [Usage/Examples](#Usage/Examples)
-- [Customization](#Customization)
-- [Initialization](#Initialization)
-- [Video Processing](#Video-Processing)
-- [Post Processing and Visualization](#Post-Processing-And-Visualization)
-- [Cleanup](#Cleanup)
-- [Result](#Result)
-- [Acknowledgements](#Acknowledgements)
-- [Authors](#Authors)
+- [Overview](#overview)
+- [YOLOv5 Overview](#yolov5-overview)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage/Examples](#usageexamples)
+- [Customization](#customization)
+- [Initialization](#initialization)
+- [Video Processing](#video-processing)
+- [Post Processing and Visualization](#post-processing-and-visualization)
+- [Cleanup](#cleanup)
+- [Result](#result)
+- [Acknowledgements](#acknowledgements)
+- [Authors](#authors)
+
 
 ## Overview 🎯
 
