@@ -16,7 +16,7 @@
 - [Authors](#authors)
 
 
-## Overview 🎯
+## Overview 
 
 This Python application simulates the tracked items from a bird's eye view perspective while demonstrating object identification and tracking using YOLOv5. The script analyzes video input and superimposes virtual objects onto the aerial view to better understand object movement and interaction.
 
