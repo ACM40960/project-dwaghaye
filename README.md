@@ -2,19 +2,19 @@
 
 ## Table of Contents 📑
 
-- [Overview](#overview)
-- [YOLOv5 Overview](#yolov5-overview)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage/Examples](#usage-examples)
-- [Customization](#customization)
-- [Initialization](#initialization)
-- [Video Processing](#video-processing)
-- [Post Processing and Visualization](#post-processing-and-visualization)
-- [Cleanup](#cleanup)
-- [Result](#result)
-- [Acknowledgements](#acknowledgements)
-- [Authors](#authors)
+- [Overview](#overview-)
+- [YOLOv5 Overview](#yolov5-overview-)
+- [Requirements](#requirements-)
+- [Installation](#installation-)
+- [Usage/Examples](#usage-examples-)
+- [Customization](#customization-)
+- [Initialization](#initialization-)
+- [Video Processing](#video-processing-)
+- [Post Processing and Visualization](#post-processing-and-visualization-)
+- [Cleanup](#cleanup-)
+- [Result](#result-)
+- [Acknowledgements](#acknowledgements-)
+- [Authors](#authors-)
 
 
 ## Overview 🎯
