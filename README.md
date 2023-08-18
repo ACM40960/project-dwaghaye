@@ -47,18 +47,22 @@ cd your-repo
 
 2. **Install the required packages**:
 
+```bash
 pip install opencv-python==4.8.0
 pip install numpy==1.21.5
 pip install torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install torchvision==0.15.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install matplotlib==3.5.1
 
+```
+
 3. **Jupyter Notebook**: To run the provided Jupyter Notebook, install and start Jupyter:
 
-   ```bash
-   pip install jupyter
-   jupyter notebook
-   ```
+```bash
+pip install jupyter
+jupyter notebook
+
+```
 
 ## Usage/Examples 🚀
 
