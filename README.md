@@ -1,8 +1,8 @@
 # Moving Object detection and tracking with Bird's Eye View Simulation
 
 ## Table of Contents 📑
-- [Overview](#overview)
-- [YOLOv5 Overview](#yolov5-overview)
+- [Overview](#Overview)
+- [YOLOv5 Overview](#YOLOv5-Overview)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage/Examples](#usageexamples)
