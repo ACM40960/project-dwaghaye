@@ -2,7 +2,7 @@
 
 ## Table of Contents 📑
 - [Overview](#overview-🎯)
-- [YOLOv5 Overview](#yolov5-overview)
+- [YOLOv5 Overview](#yolov5-overview-🛣️)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage/Examples](#usage-examples)
