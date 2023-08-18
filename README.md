@@ -5,7 +5,7 @@
 - [YOLOv5 Overview](#yolov5-overview)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage/Examples](#usageexamples)
+- [Usage/Examples](#usage-examples)
 - [Customization](#customization)
 - [Initialization](#initialization)
 - [Video Processing](#video-processing)
@@ -16,7 +16,7 @@
 - [Authors](#authors)
 
 
-## Overview 
+## Overview 🎯
 
 This Python application simulates the tracked items from a bird's eye view perspective while demonstrating object identification and tracking using YOLOv5. The script analyzes video input and superimposes virtual objects onto the aerial view to better understand object movement and interaction.
 
@@ -64,7 +64,7 @@ jupyter notebook
 
 ```
 
-## Usage/Examples 🚀
+## Usage Examples 🚀
 
 1. Place the video file you want to process in the repository directory.
 
@@ -80,7 +80,7 @@ The script can be modified by changing the following variables:
 
 - path_input_video: You can select a different path to play a different video.
 - path_output_video: Path to save the output video file.
-- yolo_classes: List of YOLO class names. These can be added or removed based on requirement.
+- yolo_classes: List of YOLO class names. These can be added or removed based on requirements.
 - enable_track: If set to True, object tracking is enabled; if set to False, it is not.
 - size_of_batch: Batch size for YOLO inference.
 
