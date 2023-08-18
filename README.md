@@ -1,12 +1,30 @@
 # Moving Object detection and tracking with Bird's Eye View Simulation
 
+## Table of Contents 📑
+- [Overview](##Overview)
+- [YOLOv5 Overview](##YOLOv5-Overview)
+- [Requirements](##Requirements)
+- [Installation](##Installation)
+- [Usage/Examples](##Usage/Examples)
+- [Customization](##Customization)
+- [Initialization](##Initialization)
+- [Video Processing](##Video-Processing)
+- [Post Processing and Visualization](##Post-Processing-and-Visualization)
+- [Cleanup](##Cleanup)
+- [Result](##Result)
+- [Acknowledgements](##Acknowledgements)
+- [Authors](##Authors)
+
+
+## Overview 🎯
+
 This Python application simulates the tracked items from a bird's eye view perspective while demonstrating object identification and tracking using YOLOv5. The script analyzes video input and superimposes virtual objects onto the aerial view to better understand object movement and interaction.
 
-## YOLOv5 Overview: 
+## YOLOv5 Overview 🛣️
 
 YOLOv5 is a single-shot detector. It means it requires only one forward pass through the network to detect objects.The model uses predefined bounding box shapes called anchors, which are optimized for the dataset at hand. These anchors help in predicting the sizes of the detected objects.
 
-## Requirements
+## Requirements 💽
 
 - Python 3.x
 - OpenCV (OpenCV Version: 4.8.0)
@@ -17,9 +35,9 @@ YOLOv5 is a single-shot detector. It means it requires only one forward pass thr
 - [YOLOv5](https://github.com/ultralytics/yolov5)
 
 
-## Installation
+## Installation 📥
 
-1. Clone the repository:
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
@@ -27,14 +45,21 @@ cd your-repo
 
 ```
 
-2. Install the required packages:
+2. **Install the required packages**:
 
 ```bash
 pip install opencv-python numpy torch torchvision
 
 ```
 
-## Usage/Examples
+3. **Jupyter Notebook**: To run the provided Jupyter Notebook, install and start Jupyter:
+
+   ```bash
+   pip install jupyter
+   jupyter notebook
+   ```
+
+## Usage/Examples 🚀
 
 1. Place the video file you want to process in the repository directory.
 
@@ -43,7 +68,7 @@ pip install opencv-python numpy torch torchvision
 
 4. Run the script.
 
-## Customization
+## Customization 🛠️
 
 The script can be modified by changing the following variables:
 
@@ -53,7 +78,7 @@ The script can be modified by changing the following variables:
 - enable_track: If set to True, object tracking is enabled; if set to False, it is not.
 - size_of_batch: Batch size for YOLO inference.
 
-## Initialization
+## Initialization 👾
 
 - YOLOv5 model is loaded.
 - Video paths, settings, and class labels are initialized.
@@ -65,7 +90,7 @@ The script can be modified by changing the following variables:
         - object_bev_plot: Projects object centroids to a bird's eye view.
         - tracking_and_distance_details: Tracks objects between frames based on centroid proximity.
 
-## Video Processing
+## Video Processing 📽️
 
 - Each frame of the video is read.
 - YOLOv5 is used for object detection.
@@ -76,16 +101,16 @@ The script can be modified by changing the following variables:
 - The original frame, the simulated objects, and the transformed bird's eye view are displayed.
 - The processing time for each frame is recorded.
 
-## Post Processing and Visualization
+## Post Processing and Visualization 🎞️
 
 - Processing times per frame are plotted.
 - Detected and tracked object counts are plotted.
 
-## Cleanup
+## Cleanup 🌪️
 
 - Video input and output streams are released. Any open windows are destroyed.
 
-## Result
+## Result 📋
 
 A real-time presentation of the original video, complete with object detection bounding boxes, class, and probability, as well as a simulated bird's-eye view with superimposed objects and a converted bird's-eye view with annotated centroids.
 
@@ -100,15 +125,13 @@ Bird's Eye View:
 <img src="https://github.com/ACM40960/project-dwaghaye/assets/118671691/1887b1d1-51e1-4b41-afe4-1a4d89e1a268" width="300" height="200">
 
 
-
-
-## Acknowledgements
+## Acknowledgements 📝
 
 - The YOLOv5 model from the https://github.com/ultralytics/yolov5 repository is used in this script. 
 - Based on computer vision concepts, approaches for object simulation and bird's-eye view modification are built.
 
-## Authors 
+## Authors 👩‍💻👨‍💻
 
-Dhaarna Waghaye
+Dhaarna Waghaye (22201256)
 
-Dhiraj Lala
+Dhiraj Lala (22200259)
